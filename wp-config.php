@@ -14,15 +14,21 @@
  * @package WordPress
  */
 
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/svetloe/wordpress');
+define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
+define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
+define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+define('WP_DEFAULT_THEME', 'twentyeleven');
+ 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'svetloe');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'svetloe');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'svetloe');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -42,14 +48,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         '-r(Q ZXI<_>)he$*J?1+M!|Z*pVVt.|Y +EiIO<L-/+UGcoj&&s,X>+h=r2;-=:i');
+define('SECURE_AUTH_KEY',  '}3G$9+$*!?>C,AzYPVV:2|AsA,3|+]0hw[K[-%7VN!L>el! |U%H5Mn<X?[v~H~L');
+define('LOGGED_IN_KEY',    '#`7ZMzF3[##Hwx2>B[&_4lAl/@mo<|FQ>F$$mD wRn*zes[&&GZ/f-I=^v{e%]cH');
+define('NONCE_KEY',        '$&FA%liLWcWOX99MPD][CHc$u8 @WAk|!=}wdb1Pl5L@,bINDp!f*xRuN((% (H#');
+define('AUTH_SALT',        '(N56}![jD%1mTUhV,fCs5#&pM-GPC1J:0miksdpHQ`>uS;euI(<AW8>O~Gg`,v9g');
+define('SECURE_AUTH_SALT', '?iuGSUUB $_aiIdThBC8g}+8|2WgK(7g!{ZBku@-J;+ML7Fz_&`++[ivWt2nL#Xj');
+define('LOGGED_IN_SALT',   'ApPs1ak#|YBZo^2?KL>:-XlrlCOLO,[Q7e->$+}a_70q,qvh$7<9IApuK|V.FTZB');
+define('NONCE_SALT',       'f)X/Bd]4vC+:r*y{KX$!Lae~A(@pqdzEDK~.6bZwvu9Gm|1cP<{+$+L=[Gs1qV|#');
 
 /**#@-*/
 
@@ -69,7 +75,7 @@ $table_prefix  = 'wp_';
  * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
  * language support.
  */
-define('WPLANG', '');
+define('WPLANG', 'ru_RU');
 
 /**
  * For developers: WordPress debugging mode.
@@ -78,7 +84,7 @@ define('WPLANG', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
