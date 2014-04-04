@@ -13,11 +13,12 @@
  *
  * @package WordPress
  */
-
-define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/svetloe/wordpress');
-define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
-define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
-define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+define('URL_PREFIX', '/svetloe');
+ 
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . URL_PREFIX .'/wordpress');
+define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME'] . URL_PREFIX);
+define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . URL_PREFIX. '/wp-content');
+define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . URL_PREFIX .'/wp-content');
 define('WP_DEFAULT_THEME', 'twentyeleven');
  
 // ** MySQL settings - You can get this info from your web host ** //
