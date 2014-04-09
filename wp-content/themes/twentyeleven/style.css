@@ -2736,3 +2736,87 @@ p.comment-form-comment {
 #ie8 section.featured-post .attachment-small-feature {
 	max-width: none;
 }
+
+
+/* MailPoet Newsletters
+----------------------------------------------- */
+
+#wysija-2 {	
+	padding: 5px;
+	text-align: center;
+	border: 1px solid;
+border-color: #23748e #23748e hsl(195, 60%, 32.5%);
+  -webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+	
+}
+#wysija-2 .widget-title{
+	color: #666;
+	font-size: 10px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	line-height: 2.6em;
+	text-transform: uppercase;
+}
+
+#wysija-2 .widget_wysija_cont input[name="wysija[user][email]"] {
+	width: 85%;
+}
+
+#wysija-2 .widget_wysija_cont .wysija-paragraph {
+	margin-bottom: 0.7em;
+}
+
+#wysija-2 .widget_wysija_cont a{
+	font-size: 10px;
+}
+
+#wysija-2 .widget_wysija_cont .wysija-submit {
+margin-top: 5px;
+display: inline-block;
+padding: 5px 14px 6px;
+font-size: 13px;
+line-height: normal;
+border: 1px solid;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+-webkit-transition: 0.1s linear all;
+-moz-transition: 0.1s linear all;
+transition: 0.1s linear all;
+	margin-left: auto;
+	margin-right: auto;
+	  background-color: hsl(0, 69%, 37%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dd4545", endColorstr="#9f1d1d");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#dd4545), to(#9f1d1d));
+  background-image: -moz-linear-gradient(top, #dd4545, #9f1d1d);
+  background-image: -ms-linear-gradient(top, #dd4545, #9f1d1d);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dd4545), color-stop(100%, #9f1d1d));
+  background-image: -webkit-linear-gradient(top, #dd4545, #9f1d1d);
+  background-image: -o-linear-gradient(top, #dd4545, #9f1d1d);
+  background-image: linear-gradient(#dd4545, #9f1d1d);
+  border-color: #9f1d1d #9f1d1d hsl(0, 69%, 32%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+	cursor: pointer;
+	margin-bottom: 10px;
+
+
+}
+#wysija-2 .widget_wysija_cont .wysija-submit:hover {
+background-position: 0 -15px;
+color: #333;
+text-decoration: none;
+}
+
+#wysija-2 .widget_wysija_cont .wysija-submit:active {
+-webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.05);
+-moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.05);
+box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
