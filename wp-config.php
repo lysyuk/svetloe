@@ -13,7 +13,7 @@
  *
  * @package WordPress
  */
-define('URL_PREFIX', '/svetloe');
+define('URL_PREFIX', '');
  
 define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . URL_PREFIX .'/wordpress');
 define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME'] . URL_PREFIX);
