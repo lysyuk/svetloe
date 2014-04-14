@@ -23,13 +23,13 @@ define('WP_DEFAULT_THEME', 'twentyeleven');
  
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'svetloe');
+define('DB_NAME', 'svetloe86');
 
 /** MySQL database username */
-define('DB_USER', 'svetloe');
+define('DB_USER', 'svetloe86');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'svetloe');
+define('DB_PASSWORD', 'QPmqk2uS');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -85,7 +85,7 @@ define('WPLANG', 'ru_RU');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 
