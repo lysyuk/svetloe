@@ -11,6 +11,10 @@
  *
  * @var bool
  */
+ 
+ /** 
+ * @version 1.0.0 
+ */
 define('WP_USE_THEMES', true);
 
 /** Loads the WordPress Environment and Template */
