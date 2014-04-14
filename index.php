@@ -13,7 +13,7 @@
  */
  
  /** 
- * @version 1.0.1 
+ * @version 1.0.2 
  */
 define('WP_USE_THEMES', true);
 
