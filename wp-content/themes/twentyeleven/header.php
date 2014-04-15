@@ -22,6 +22,8 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
+<link rel="icon" href="http://<?php echo $_SERVER['SERVER_NAME'].URL_PREFIX;?>/wp-content/uploads/2014/04/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://<?php echo $_SERVER['SERVER_NAME'].URL_PREFIX;?>/wp-content/uploads/2014/04/favicon.ico" type="image/x-icon" />
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
 <title><?php
